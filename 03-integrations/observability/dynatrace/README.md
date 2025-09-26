@@ -1,6 +1,6 @@
-# Amazon Bedrock Agent Integration with Dynatrace
+# Amazon Bedrock AgentCore Integration with Dynatrace
 
-This example contains a demo of a Personal Assistant Agent built on top of [Bedrock AgentCore Agents](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html).
+This example contains a demo of a Personal Assistant Agent built on top of [Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html).
 
 
 ## Prerequisites
@@ -88,6 +88,6 @@ You can interact with your agent with the following command:
 curl -X POST http://127.0.0.1:8080/invocations --data '{"prompt": "What is the weather now?"}'
 ```
 
-Now you have full observability of your Bedrock AgentCore Agents in Dynatrace 🚀
+Now you have full observability of your Amazon Bedrock AgentCore Agents in Dynatrace 🚀
 
 ![Tracing](./dynatrace.png)
